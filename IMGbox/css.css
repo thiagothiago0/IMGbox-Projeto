@@ -1,0 +1,54 @@
+ body{
+    background-color: cornflowerblue;
+} 
+
+#container-header{
+    width: 100%;
+    height: 400px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 100%;
+}
+.logo:hover{
+    zoom: 1.5;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+.menu{
+    width: 400px;
+    height: 50px;
+    font-size: 30px;
+    font-family: Arial Narrow, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+a:hover{
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    zoom: 1.2;
+}
+
+
+h1{
+    font-family: Arial Narrow, sans-serif;
+    
+}
+
+
+
+
